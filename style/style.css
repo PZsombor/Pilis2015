@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-image: url('../img/bg.png');
+    background-repeat: repeat-x;
+    background-color: #629d66;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+.header{
+    height: 240px;
+    background-image: url('../img/logo1.jpg');
+}
+.header h1{
+    color: white;
+    font-size: 5em;
+    text-transform: uppercase;
+    padding: 80px 0 0 400px;
+    font-weight: bold;
+}
+.sidebar{
+    width: 19.99999%;
+    float: left;
+}
+.content{
+    width: 79.99999%;
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.content .news{
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.content .news h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.content .news p{
+    line-height: 1.5;
+    text-align: justify;
+}
+.content .news img{
+    float: left;
+    margin-right: 20px;
+}
+.sidebar .block{
+    background: url('../img/img02.gif') no-repeat right bottom #96a96f;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.sidebar .block h3{
+    background: #203926;
+    color: white;
+}
+.sidebar .block ul{
+    list-style-type: none;
+    padding: 10px;
+}
+.sidebar .block ul li{
+    padding:10px;
+}
+.footer{
+    background-color: #203926;
+    color: white;
+    text-align: center;
+}
